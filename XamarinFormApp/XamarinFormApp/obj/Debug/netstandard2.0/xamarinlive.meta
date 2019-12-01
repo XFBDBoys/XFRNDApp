@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<XamlProjectMeta xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Files>
+    <XamlFileMeta>
+      <FilePath>D:\Xamarin\XF_WorkSpace\XamarinFormApp\XamarinFormApp\XamarinFormApp\App.xaml</FilePath>
+      <Hash>66-B3-62-A7-84-D1-B6-DD-4B-4D-ED-5B-63-2F-F1-3B</Hash>
+      <Properties />
+    </XamlFileMeta>
+    <XamlFileMeta>
+      <FilePath>D:\Xamarin\XF_WorkSpace\XamarinFormApp\XamarinFormApp\XamarinFormApp\Styles\Button.xaml</FilePath>
+      <Hash>A0-A7-84-FE-9D-64-D4-75-1C-D5-AA-43-71-BF-38-21</Hash>
+      <Properties />
+    </XamlFileMeta>
+    <XamlFileMeta>
+      <FilePath>D:\Xamarin\XF_WorkSpace\XamarinFormApp\XamarinFormApp\XamarinFormApp\Styles\Color.xaml</FilePath>
+      <Hash>E8-98-19-58-07-D5-76-B7-EE-B9-FA-43-0E-AF-18-89</Hash>
+      <Properties />
+    </XamlFileMeta>
+    <XamlFileMeta>
+      <FilePath>D:\Xamarin\XF_WorkSpace\XamarinFormApp\XamarinFormApp\XamarinFormApp\Styles\Elements.xaml</FilePath>
+      <Hash>94-41-81-F3-64-FB-D6-B7-AF-A3-69-01-22-B4-03-17</Hash>
+      <Properties />
+    </XamlFileMeta>
+    <XamlFileMeta>
+      <FilePath>D:\Xamarin\XF_WorkSpace\XamarinFormApp\XamarinFormApp\XamarinFormApp\Styles\Fonts.xaml</FilePath>
+      <Hash>E9-B4-88-C8-D7-75-94-02-54-79-54-40-59-C2-AF-B3</Hash>
+      <Properties />
+    </XamlFileMeta>
+    <XamlFileMeta>
+      <FilePath>D:\Xamarin\XF_WorkSpace\XamarinFormApp\XamarinFormApp\XamarinFormApp\Styles\Label.xaml</FilePath>
+      <Hash>F4-77-12-74-AA-9E-E7-EF-DB-6E-71-6C-3E-B0-12-7E</Hash>
+      <Properties />
+    </XamlFileMeta>
+    <XamlFileMeta>
+      <FilePath>D:\Xamarin\XF_WorkSpace\XamarinFormApp\XamarinFormApp\XamarinFormApp\Views\BackPage.xaml</FilePath>
+      <Hash>41-32-55-CE-D0-C1-39-49-02-2B-06-EE-DD-7D-E7-FC</Hash>
+      <Properties />
+    </XamlFileMeta>
+    <XamlFileMeta>
+      <FilePath>D:\Xamarin\XF_WorkSpace\XamarinFormApp\XamarinFormApp\XamarinFormApp\Views\CheckboxPage.xaml</FilePath>
+      <Hash>17-18-BD-CE-B5-52-3A-71-2C-3C-53-0D-58-47-D9-49</Hash>
+      <Properties />
+    </XamlFileMeta>
+    <XamlFileMeta>
+      <FilePath>D:\Xamarin\XF_WorkSpace\XamarinFormApp\XamarinFormApp\XamarinFormApp\Views\CSSUsePage.xaml</FilePath>
+      <Hash>EA-1A-78-6C-8A-EB-81-FE-0E-AA-21-17-99-52-CA-3C</Hash>
+      <Properties />
+    </XamlFileMeta>
+    <XamlFileMeta>
+      <FilePath>D:\Xamarin\XF_WorkSpace\XamarinFormApp\XamarinFormApp\XamarinFormApp\Views\CustomEntryPage.xaml</FilePath>
+      <Hash>1B-5B-5F-37-71-69-42-8A-72-D1-48-BB-20-48-51-FC</Hash>
+      <Properties />
+    </XamlFileMeta>
+    <XamlFileMeta>
+      <FilePath>D:\Xamarin\XF_WorkSpace\XamarinFormApp\XamarinFormApp\XamarinFormApp\Views\CustomListPage.xaml</FilePath>
+      <Hash>59-94-35-17-81-1C-8B-06-B3-76-0D-DA-76-C6-87-25</Hash>
+      <Properties />
+    </XamlFileMeta>
+    <XamlFileMeta>
+      <FilePath>D:\Xamarin\XF_WorkSpace\XamarinFormApp\XamarinFormApp\XamarinFormApp\Views\DashBoard.xaml</FilePath>
+      <Hash>4C-29-65-57-79-9E-75-61-05-5E-05-8E-C0-6B-3C-AB</Hash>
+      <Properties />
+    </XamlFileMeta>
+    <XamlFileMeta>
+      <FilePath>D:\Xamarin\XF_WorkSpace\XamarinFormApp\XamarinFormApp\XamarinFormApp\Views\DatePickerPage.xaml</FilePath>
+      <Hash>13-51-4E-7F-CD-E5-6D-D0-C0-A5-50-ED-AB-19-6F-CB</Hash>
+      <Properties />
+    </XamlFileMeta>
+    <XamlFileMeta>
+      <FilePath>D:\Xamarin\XF_WorkSpace\XamarinFormApp\XamarinFormApp\XamarinFormApp\Views\DesignPage.xaml</FilePath>
+      <Hash>DF-29-F2-AA-2C-E0-2F-25-14-18-67-6A-85-B0-4A-D9</Hash>
+      <Properties />
+    </XamlFileMeta>
+    <XamlFileMeta>
+      <FilePath>D:\Xamarin\XF_WorkSpace\XamarinFormApp\XamarinFormApp\XamarinFormApp\Views\DropdownPage.xaml</FilePath>
+      <Hash>EC-60-BB-49-B8-42-A4-A3-52-02-3F-42-EF-26-B8-70</Hash>
+      <Properties />
+    </XamlFileMeta>
+    <XamlFileMeta>
+      <FilePath>D:\Xamarin\XF_WorkSpace\XamarinFormApp\XamarinFormApp\XamarinFormApp\Views\EmployeeEntryPage.xaml</FilePath>
+      <Hash>C5-12-1C-27-87-4D-EB-41-85-3A-0E-80-D1-14-DE-AD</Hash>
+      <Properties />
+    </XamlFileMeta>
+    <XamlFileMeta>
+      <FilePath>D:\Xamarin\XF_WorkSpace\XamarinFormApp\XamarinFormApp\XamarinFormApp\Views\LoginPage.xaml</FilePath>
+      <Hash>99-00-5C-A8-6D-07-1C-28-5E-F9-11-96-8A-5B-7E-7F</Hash>
+      <Properties>
+        <string>NavigationPage.HasNavigationBar</string>
+      </Properties>
+    </XamlFileMeta>
+    <XamlFileMeta>
+      <FilePath>D:\Xamarin\XF_WorkSpace\XamarinFormApp\XamarinFormApp\XamarinFormApp\Views\MvvmNextPage.xaml</FilePath>
+      <Hash>80-43-AA-F6-DE-E7-F9-77-5E-83-D9-7C-5B-D5-4C-59</Hash>
+      <Properties />
+    </XamlFileMeta>
+    <XamlFileMeta>
+      <FilePath>D:\Xamarin\XF_WorkSpace\XamarinFormApp\XamarinFormApp\XamarinFormApp\Views\MvvmPage.xaml</FilePath>
+      <Hash>97-0B-1E-8F-5F-6F-01-E5-8A-B1-64-83-42-CD-73-81</Hash>
+      <Properties />
+    </XamlFileMeta>
+    <XamlFileMeta>
+      <FilePath>D:\Xamarin\XF_WorkSpace\XamarinFormApp\XamarinFormApp\XamarinFormApp\Views\NextPage.xaml</FilePath>
+      <Hash>62-5B-A6-72-74-EF-11-84-F9-4B-12-AB-86-71-D9-4D</Hash>
+      <Properties />
+    </XamlFileMeta>
+    <XamlFileMeta>
+      <FilePath>D:\Xamarin\XF_WorkSpace\XamarinFormApp\XamarinFormApp\XamarinFormApp\Views\TopNavigationPage.xaml</FilePath>
+      <Hash>DC-79-E5-7D-88-6E-C3-C2-7D-30-EA-02-C6-F1-CE-3B</Hash>
+      <Properties>
+        <string>NavigationPage.HasNavigationBar</string>
+      </Properties>
+    </XamlFileMeta>
+  </Files>
+</XamlProjectMeta>

@@ -1,0 +1,204 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:local="clr-namespace:XamarinFormApp.Controls"
+             mc:Ignorable="d"
+             x:Class="XamarinFormApp.Views.CSSUsePage">
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <Color x:Key="BorderColor">#75849D</Color>
+            <Style x:Key="frameStyle" TargetType="Frame">
+                <Setter Property="HasShadow" Value="False"/>
+                <Setter Property="Padding" Value="0"/>
+                <Setter Property="CornerRadius" Value="5"/>
+                <Setter Property="BorderColor" Value="{StaticResource BorderColor}"/>
+                <Setter Property="WidthRequest" Value="280"/>
+            </Style>
+            <Style x:Key="labelStyle" TargetType="Label">
+                <Setter Property="FontSize" Value="20"/>
+                <Setter Property="FontFamily" Value="Arial"/>
+                <Setter Property="VerticalOptions" Value="Center"/>
+                <Setter Property="TextColor" Value="#000000"/>
+            </Style>
+            <Style x:Key="entryStyle" TargetType="Entry">
+                <Setter Property="Margin" Value="0,0,0,0"/>
+                
+            </Style>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+    <ContentPage.Content>
+        <StackLayout >
+            <Frame Margin="10,10" 
+                   BackgroundColor="White" 
+                   BorderColor="Black" 
+                   HasShadow="False" 
+                   CornerRadius="5">
+                <Label 
+                    StyleClass="label-design"
+                    Text="Welcome to Xamarin.Forms!"
+                    VerticalOptions="CenterAndExpand" 
+                    HorizontalOptions="CenterAndExpand" />
+            </Frame>
+            
+            <Frame Margin="10,10" 
+                   BackgroundColor="Transparent" 
+                   BorderColor="Black" 
+                   HasShadow="False" 
+                   CornerRadius="5">
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="0.4*"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="50"/>
+                        <RowDefinition Height="50"/>
+                        <RowDefinition Height="50"/>
+                        <RowDefinition Height="50"/>
+                        <RowDefinition Height="50"/>
+                        <RowDefinition Height="50"/>
+                        <RowDefinition Height="50"/>
+                        <RowDefinition Height="50"/>
+                        <RowDefinition Height="50"/>
+                        <RowDefinition Height="50"/>
+                    </Grid.RowDefinitions>
+                    <Label
+                        Grid.Row="0"
+                        Grid.Column="0"
+                        Style="{StaticResource labelStyle}"
+                        Text="Name : "/>
+                    <Frame 
+                        Style="{StaticResource frameStyle}" 
+                        Grid.Row="0" 
+                        Grid.Column="1">
+                        <Entry
+                            Style="{StaticResource entryStyle}"
+                            x:Name="entryName"
+                            Keyboard="Text"/>
+                    </Frame>
+                    <Label
+                        Grid.Row="1"
+                        Grid.Column="0"
+                        Style="{StaticResource labelStyle}"
+                        Text="Address : "/>
+                    <Frame 
+                        Style="{StaticResource frameStyle}"
+                        Grid.Row="1" 
+                        Grid.Column="1">
+                        <Editor
+                            x:Name="entryAddress"
+                            Margin="0,0,0,0"
+                            Keyboard="Text"/>
+                    </Frame>
+                    <Label
+                        Grid.Row="2"
+                        Grid.Column="0"
+                        Style="{StaticResource labelStyle}"
+                        Text="Mobile : "/>
+                    <Frame 
+                        Style="{StaticResource frameStyle}"
+                        Grid.Row="2" 
+                        Grid.Column="1">
+                        <Entry
+                            x:Name="txtName"
+                            Style="{StaticResource entryStyle}"
+                            Keyboard="Numeric"/>
+                    </Frame>
+                    <Label
+                        Grid.Row="3"
+                        Grid.Column="0"
+                        Style="{StaticResource labelStyle}"
+                        Text="E-Mail : "/>
+                    <Frame 
+                        Style="{StaticResource frameStyle}"
+                        Grid.Row="3" 
+                        Grid.Column="1">
+                        <Entry
+                            x:Name="entryEmail"
+                            Style="{StaticResource entryStyle}"
+                            Keyboard="Text"/>
+                    </Frame>
+                    <Label
+                        Grid.Row="4"
+                        Grid.Column="0"
+                        Style="{StaticResource labelStyle}"
+                        Text="DOB : "/>
+                    <Frame 
+                        Style="{StaticResource frameStyle}"
+                        Grid.Row="4" 
+                        Grid.Column="1">
+                        <DatePicker
+                            x:Name="dteDOB"
+                            Format="dd/MM/yyyy"
+                            Margin="0,0,0,0"/>
+                    </Frame>
+                    <Label
+                        Grid.Row="5"
+                        Grid.Column="0"
+                        Style="{StaticResource labelStyle}"
+                        Text="Gender : "/>
+
+                    <Frame 
+                        Style="{StaticResource frameStyle}"
+                        Grid.Row="5" 
+                        Grid.Column="1">
+                        <local:Spinner
+                            x:Name="spinnerGender"
+                            HorizontalOptions="FillAndExpand"
+                            HeightRequest="40"
+                            Title="Pick Gender"
+                            Image="ic_down_arrow">
+                            <local:Spinner.Items>
+                                <x:String>Male</x:String>
+                                <x:String>Female</x:String>
+                            </local:Spinner.Items>
+                        </local:Spinner>
+                    </Frame>
+                    <Label
+                        Grid.Row="6"
+                        Grid.Column="0"
+                        Style="{StaticResource labelStyle}"
+                        Text="Time : "/>
+
+                    <Frame 
+                        Style="{StaticResource frameStyle}"
+                        Grid.Row="6" 
+                        Grid.Column="1">
+                        <TimePicker
+                            x:Name="timePick"
+                            Format="HH:mm:tt"
+                            Margin="0"/>
+                    </Frame>
+                    <Label
+                        Grid.Row="7"
+                        Grid.Column="0"
+                        Style="{StaticResource labelStyle}"
+                        Text="RB : "/>
+                    <Frame 
+                        Style="{StaticResource frameStyle}"
+                        Grid.Row="7" 
+                        Grid.Column="1">
+                        <CheckBox 
+                            Color="Red">
+                        </CheckBox>
+
+                    </Frame>
+
+                    <Button 
+                        Grid.Row="8"
+                        Grid.Column="1"
+                        Text="Submit"
+                        x:Name="btnSubmit"
+                        BackgroundColor="Green"
+                        TextColor="White"
+                        FontSize="Title"
+                        FontAttributes="Bold"
+                        Clicked="btnSubmit_Clicked"/>
+                </Grid>
+            </Frame>
+            
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

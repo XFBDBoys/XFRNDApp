@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:local="clr-namespace:XamarinFormApp.ViewModels"
+             mc:Ignorable="d"
+             x:Class="XamarinFormApp.Views.MvvmPage">
+
+    <ContentPage.BindingContext>
+        <local:MvvmPageViewModel/>
+    </ContentPage.BindingContext>
+
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="2*"/>
+            <RowDefinition Height="0.5*"/>
+            <RowDefinition Height="2*"/>
+        </Grid.RowDefinitions>
+        
+        <Image Source="" Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="2"/>
+        <Editor Grid.Column="0" Grid.Row="1" Grid.ColumnSpan="2"
+                Placeholder="Write Note Here" Margin="10,10"
+                Text="{Binding TheNote}"/>
+        <Button Grid.Column="0" Grid.Row="2" Text="Save" 
+                Margin="10,0" BackgroundColor="Green" 
+                TextColor="White"
+                Command="{Binding SaveCommand}"/>
+        <Button Grid.Column="1" Grid.Row="2" Text="Erase"
+                Margin="10,0" BackgroundColor="Red" 
+                TextColor="White"
+                Command="{Binding EraseCommand}"/>
+        <!--<Label Grid.Column="0" Grid.Row="3" Grid.ColumnSpan="2"
+               Text="Somthing Cool..." Margin="10" FontSize="Large"/>-->
+        <CollectionView ItemsSource="{Binding AllNotes}"
+                        Grid.Column="0" 
+                        Grid.Row="3" 
+                        Grid.ColumnSpan="2"
+                        SelectionMode="Single"
+                        SelectedItem="{Binding SelectedNode}"
+                        SelectionChangedCommand="{Binding SelectedNodeChangedCommand}">
+            <CollectionView.ItemTemplate>
+                <DataTemplate>
+                    <StackLayout>
+                        <Frame>
+                            <Label Text="{Binding .}" FontSize="Title" Margin="10"/>
+                        </Frame>
+                    </StackLayout>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+
+    </Grid>
+</ContentPage>

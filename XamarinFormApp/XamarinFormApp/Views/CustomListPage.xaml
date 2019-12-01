@@ -1,0 +1,125 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:local="clr-namespace:XamarinFormApp.ViewModels"
+             mc:Ignorable="d"
+             x:Class="XamarinFormApp.Views.CustomListPage">
+
+    <ContentPage.BindingContext>
+        <local:CustomListPageViewModel/>
+    </ContentPage.BindingContext>
+
+    <ContentPage.Padding>
+        <OnPlatform x:TypeArguments="Thickness" Android="0,0,5,5" iOS="0,0,5,5"/>
+    </ContentPage.Padding>
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout>
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width=".3*"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="50"/>
+                        <RowDefinition Height="50"/>
+                        <RowDefinition Height=".2*"/>
+                        <RowDefinition Height="50"/>
+                        <RowDefinition Height="*"/>
+                    </Grid.RowDefinitions>
+
+                    <!--<Label 
+                        Grid.Row="0" 
+                        Grid.Column="0"
+                        Text="ID :"
+                        VerticalOptions="EndAndExpand" 
+                        HorizontalOptions="EndAndExpand" />
+                    <Entry 
+                        Grid.Row="0" 
+                        Grid.Column="1"
+                        Text="{Binding ID}"
+                        FontSize="Title"/>-->
+
+                    <Label 
+                        Grid.Row="0" 
+                        Grid.Column="0"
+                        Text="Name :"
+                        VerticalOptions="EndAndExpand" 
+                        HorizontalOptions="EndAndExpand" />
+                    <Entry 
+                        Grid.Row="0" 
+                        Grid.Column="1"
+                        Text="{Binding Name}"
+                        FontSize="Title"/>
+                    <Label 
+                        Grid.Row="1" 
+                        Grid.Column="0"
+                        Text="Location :"
+                        VerticalOptions="EndAndExpand" 
+                        HorizontalOptions="EndAndExpand" />
+                    <Entry 
+                        Grid.Row="1" 
+                        Grid.Column="1"
+                        Text="{Binding Location}"
+                        FontSize="Title"/>
+                    <Label 
+                        Grid.Row="2" 
+                        Grid.Column="0"
+                        Text="Details :"
+                        VerticalOptions="EndAndExpand" 
+                        HorizontalOptions="EndAndExpand" />
+                    <Editor 
+                        Grid.Row="2" 
+                        Grid.Column="1"
+                        Text="{Binding Details}"
+                        FontSize="Title"/>
+
+                    <Button Grid.Column="0" Grid.Row="3" Text="Save" 
+                        Margin="10,0" BackgroundColor="Green" 
+                        TextColor="White"
+                        Command="{Binding AddItemCommand}"/>
+                    <Button Grid.Column="1" Grid.Row="3" Text="Erase"
+                        Margin="10,0" BackgroundColor="Red" 
+                        TextColor="White"/>
+
+                    <CollectionView
+                        Grid.Column="0" Grid.Row="4" Grid.ColumnSpan="2"
+                        ItemsSource="{Binding animals}">
+                        <CollectionView.ItemTemplate>   
+                            <DataTemplate>
+                                <!--<StackLayout>
+                                    <Frame>
+                                        <Label Text="{Binding AnimalName}" FontSize="Title" Margin="10"/>
+                                    </Frame>
+                                </StackLayout>-->
+                                <Grid>
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition Height="Auto" />
+                                        <RowDefinition Height="10" />
+                                    </Grid.RowDefinitions>
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="Auto"/>
+                                        <ColumnDefinition Width="Auto"/>
+                                        <ColumnDefinition Width="Auto"/>
+                                    </Grid.ColumnDefinitions>
+                                    <Label Grid.Row="0" Grid.Column="0" Text="{Binding AnimalName}" FontSize="Title" Margin="10"/>
+                                    <Label Grid.Row="0" Grid.Column="1" Text="{Binding AnimalLocation}" FontSize="Title" Margin="10"/>
+                                    <Label Grid.Row="0" Grid.Column="2" Text="{Binding AnimalDetails}" FontSize="Title" Margin="10"/>
+                                    <Label Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="2" BackgroundColor="Gray"/>
+                                </Grid>
+                            </DataTemplate>
+                        </CollectionView.ItemTemplate>
+                    </CollectionView>
+
+                </Grid>
+            </StackLayout>
+
+        </ScrollView>
+    </ContentPage.Content>
+
+
+
+
+</ContentPage>

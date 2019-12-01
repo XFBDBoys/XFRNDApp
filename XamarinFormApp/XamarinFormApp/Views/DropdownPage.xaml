@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="XamarinFormApp.Views.DropdownPage">
+    
+    <ContentPage.Padding>
+        <OnPlatform x:TypeArguments="Thickness"
+                    Android="0,0,0,0" 
+                    iOS="0,20,0,0"/>
+    </ContentPage.Padding>
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <Style x:Key="pickerStyle" TargetType="Picker">
+                <Setter Property="HorizontalOptions" Value="Center" />
+                <Setter Property="VerticalOptions"
+                        Value="CenterAndExpand" />
+                <Setter Property="FontSize" Value="Large" />
+                <Setter Property="TextColor" Value="Red" />
+            </Style>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+
+
+    <ContentPage.Content>
+        <StackLayout StyleClass="grid-padd">
+            <Frame 
+                OutlineColor="Green"
+                Padding="0,0,0,0"
+                BorderColor="Gainsboro">
+                <Entry StyleClass="txtbox"/>
+            </Frame>
+            <Frame BorderColor="Gray" CornerRadius="5" Padding="5,10,5,10">
+                <Picker x:Name="Gender" 
+                        HorizontalOptions="FillAndExpand" 
+                        Title="---Select---"
+                        BackgroundColor="#ffffff">
+                    <Picker.Items>
+                        <x:String>Male</x:String>
+                        <x:String>Female</x:String>
+                    </Picker.Items>
+                </Picker>
+            </Frame>
+
+          
+
+
+            <Picker 
+                x:Name="gender" 
+                Title="Select Gender"
+                HeightRequest="50"
+                BackgroundColor="Cyan">
+            </Picker>
+            
+            <Button 
+                x:Name="btnShow" 
+                Text="Result" 
+                Clicked="btnShow_Clicked"
+                BackgroundColor="Blue"
+                TextColor="White"
+                FontSize="16"/>
+            <Entry
+                x:Name="entry"
+                BackgroundColor="Gray"
+                TextColor="White"
+                FontSize="16"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
