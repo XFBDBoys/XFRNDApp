@@ -1054,24 +1054,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\muktadir.afbl\\.nuget\\packages\\": {},
+    "C:\\Users\\HP\\.nuget\\packages\\": {},
     "C:\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Xamarin\\XF_WorkSpace\\XamarinFormApp\\XamarinFormApp\\XamarinFormApp.iOS\\XamarinFormApp.iOS.csproj",
+      "projectUniqueName": "E:\\XF_WorkSpace\\XamarinFormApp\\XamarinFormApp\\XamarinFormApp.iOS\\XamarinFormApp.iOS.csproj",
       "projectName": "XamarinFormApp.iOS",
-      "projectPath": "D:\\Xamarin\\XF_WorkSpace\\XamarinFormApp\\XamarinFormApp\\XamarinFormApp.iOS\\XamarinFormApp.iOS.csproj",
-      "packagesPath": "C:\\Users\\muktadir.afbl\\.nuget\\packages\\",
-      "outputPath": "D:\\Xamarin\\XF_WorkSpace\\XamarinFormApp\\XamarinFormApp\\XamarinFormApp.iOS\\obj\\",
+      "projectPath": "E:\\XF_WorkSpace\\XamarinFormApp\\XamarinFormApp\\XamarinFormApp.iOS\\XamarinFormApp.iOS.csproj",
+      "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
+      "outputPath": "E:\\XF_WorkSpace\\XamarinFormApp\\XamarinFormApp\\XamarinFormApp.iOS\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\muktadir.afbl\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
@@ -1085,8 +1085,8 @@
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
-            "D:\\Xamarin\\XF_WorkSpace\\XamarinFormApp\\XamarinFormApp\\XamarinFormApp\\XamarinFormApp.csproj": {
-              "projectPath": "D:\\Xamarin\\XF_WorkSpace\\XamarinFormApp\\XamarinFormApp\\XamarinFormApp\\XamarinFormApp.csproj"
+            "E:\\XF_WorkSpace\\XamarinFormApp\\XamarinFormApp\\XamarinFormApp\\XamarinFormApp.csproj": {
+              "projectPath": "E:\\XF_WorkSpace\\XamarinFormApp\\XamarinFormApp\\XamarinFormApp\\XamarinFormApp.csproj"
             }
           }
         }
