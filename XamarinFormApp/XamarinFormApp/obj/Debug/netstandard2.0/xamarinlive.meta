@@ -82,6 +82,13 @@
       <Properties />
     </XamlFileMeta>
     <XamlFileMeta>
+      <FilePath>E:\XF_WorkSpace\XamarinFormApp\XamarinFormApp\XamarinFormApp\Views\ImageButtonPage.xaml</FilePath>
+      <Hash>37-7A-24-99-71-0E-7C-9E-F1-3B-1A-30-99-6E-5D-7B</Hash>
+      <Properties>
+        <string>NavigationPage.HasNavigationBar</string>
+      </Properties>
+    </XamlFileMeta>
+    <XamlFileMeta>
       <FilePath>E:\XF_WorkSpace\XamarinFormApp\XamarinFormApp\XamarinFormApp\Views\LoginPage.xaml</FilePath>
       <Hash>99-00-5C-A8-6D-07-1C-28-5E-F9-11-96-8A-5B-7E-7F</Hash>
       <Properties>
@@ -101,6 +108,11 @@
     <XamlFileMeta>
       <FilePath>E:\XF_WorkSpace\XamarinFormApp\XamarinFormApp\XamarinFormApp\Views\NextPage.xaml</FilePath>
       <Hash>62-5B-A6-72-74-EF-11-84-F9-4B-12-AB-86-71-D9-4D</Hash>
+      <Properties />
+    </XamlFileMeta>
+    <XamlFileMeta>
+      <FilePath>E:\XF_WorkSpace\XamarinFormApp\XamarinFormApp\XamarinFormApp\Views\PopupPage.xaml</FilePath>
+      <Hash>14-C9-A9-69-D6-06-93-23-B0-ED-CD-78-C4-41-45-83</Hash>
       <Properties />
     </XamlFileMeta>
     <XamlFileMeta>

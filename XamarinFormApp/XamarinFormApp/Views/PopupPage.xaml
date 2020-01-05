@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="XamarinFormApp.Views.PopupPage">
+
+    <AbsoluteLayout>
+        <!--Normal Content Page-->
+        <StackLayout
+            AbsoluteLayout.LayoutBounds="0,0,1,1"
+            AbsoluteLayout.LayoutFlags="All">
+            <Button
+                x:Name="btnDisplayPopup"
+                Text="Display Popup"
+                FontSize="Title"
+                VerticalOptions="CenterAndExpand"
+                HorizontalOptions="Center"
+                Clicked="btnDisplayPopup_Clicked"/>
+        </StackLayout>
+        <!--Overlay Page-->
+        <ContentView
+            x:Name="Overlay"
+            AbsoluteLayout.LayoutBounds="0,0,1,1"
+            AbsoluteLayout.LayoutFlags="All"
+            BackgroundColor="Wheat"
+            Padding="5,0"
+            IsVisible="False"
+            WidthRequest="250">
+            <StackLayout
+                BackgroundColor="White"
+                Orientation="Vertical"
+                HorizontalOptions="Center"
+                VerticalOptions="Center"
+                Padding="2">
+                <Entry
+                    x:Name="Name"
+                    VerticalOptions="StartAndExpand" 
+                    Placeholder="Enter Name"
+                    WidthRequest="350"/>
+                <Editor 
+                    x:Name="Address" 
+                    VerticalOptions="StartAndExpand" 
+                    Placeholder="Enter Address"/>
+                <Entry
+                    x:Name="Mobile" 
+                    VerticalOptions="StartAndExpand" 
+                    Placeholder="Enter Mobile"/>
+                <Entry
+                    x:Name="Email"
+                    VerticalOptions="StartAndExpand" 
+                    Placeholder="Enter Email"/>
+                <Entry 
+                    x:Name="Occupation"
+                    VerticalOptions="StartAndExpand" 
+                    Placeholder="Enter Occupation"/>
+                <StackLayout
+                    Orientation="Horizontal">
+                    <Button 
+                        x:Name="SubmitButton" 
+                        Text="Submit" 
+                        CornerRadius="25" 
+                        BackgroundColor="Green" 
+                        TextColor="White" 
+                        Clicked="SubmitButton_Clicked"
+                        FontSize="Subtitle"/>
+                    <Button 
+                        x:Name="CloseButton"
+                        Text="Close"
+                        CornerRadius="25" 
+                        BackgroundColor="OrangeRed" 
+                        TextColor="White"
+                        Clicked="CloseButton_Clicked"
+                        FontSize="Subtitle"
+                        HorizontalOptions="End"/>
+                </StackLayout>
+            </StackLayout>
+            
+        </ContentView>
+    </AbsoluteLayout>
+    
+</ContentPage>
