@@ -80,3 +80,5 @@ E:\XF_WorkSpace\XamarinFormApp\XamarinFormApp\XamarinFormApp\obj\Debug\netstanda
 E:\XF_WorkSpace\XamarinFormApp\XamarinFormApp\XamarinFormApp\obj\Debug\netstandard2.0\XamarinFormApp.pdb
 E:\XF_WorkSpace\XamarinFormApp\XamarinFormApp\XamarinFormApp\obj\Debug\netstandard2.0\XamarinFormApp.csprojAssemblyReference.cache
 E:\XF_WorkSpace\XamarinFormApp\XamarinFormApp\XamarinFormApp\obj\Debug\netstandard2.0\Views\PopupPage.xaml.g.cs
+E:\XF_WorkSpace\XamarinFormApp\XamarinFormApp\XamarinFormApp\obj\Debug\netstandard2.0\Controls\RattingBar.xaml.g.cs
+E:\XF_WorkSpace\XamarinFormApp\XamarinFormApp\XamarinFormApp\obj\Debug\netstandard2.0\Views\RattingBarPage.xaml.g.cs

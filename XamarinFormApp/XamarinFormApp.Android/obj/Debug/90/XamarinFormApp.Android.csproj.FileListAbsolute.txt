@@ -1544,3 +1544,13 @@ E:\XF_WorkSpace\XamarinFormApp\XamarinFormApp\XamarinFormApp.Android\obj\Debug\9
 E:\XF_WorkSpace\XamarinFormApp\XamarinFormApp\XamarinFormApp.Android\obj\Debug\90\stamp\_GenerateJavaStubs.stamp
 E:\XF_WorkSpace\XamarinFormApp\XamarinFormApp\XamarinFormApp.Android\obj\Debug\90\stamp\_GeneratePackageManagerJava.stamp
 E:\XF_WorkSpace\XamarinFormApp\XamarinFormApp\XamarinFormApp.Android\obj\Debug\90\stamp\_ResolveLibraryProjectImports.stamp
+E:\XF_WorkSpace\XamarinFormApp\XamarinFormApp\XamarinFormApp.Android\obj\Debug\90\res\drawable-hdpi\emptystarimage.png
+E:\XF_WorkSpace\XamarinFormApp\XamarinFormApp\XamarinFormApp.Android\obj\Debug\90\res\drawable-mdpi\emptystarimage.png
+E:\XF_WorkSpace\XamarinFormApp\XamarinFormApp\XamarinFormApp.Android\obj\Debug\90\res\drawable-xhdpi\emptystarimage.png
+E:\XF_WorkSpace\XamarinFormApp\XamarinFormApp\XamarinFormApp.Android\obj\Debug\90\res\drawable-xxhdpi\emptystarimage.png
+E:\XF_WorkSpace\XamarinFormApp\XamarinFormApp\XamarinFormApp.Android\obj\Debug\90\res\drawable-xxxhdpi\emptystarimage.png
+E:\XF_WorkSpace\XamarinFormApp\XamarinFormApp\XamarinFormApp.Android\obj\Debug\90\res\drawable-hdpi\fillstarimage.png
+E:\XF_WorkSpace\XamarinFormApp\XamarinFormApp\XamarinFormApp.Android\obj\Debug\90\res\drawable-mdpi\fillstarimage.png
+E:\XF_WorkSpace\XamarinFormApp\XamarinFormApp\XamarinFormApp.Android\obj\Debug\90\res\drawable-xhdpi\fillstarimage.png
+E:\XF_WorkSpace\XamarinFormApp\XamarinFormApp\XamarinFormApp.Android\obj\Debug\90\res\drawable-xxhdpi\fillstarimage.png
+E:\XF_WorkSpace\XamarinFormApp\XamarinFormApp\XamarinFormApp.Android\obj\Debug\90\res\drawable-xxxhdpi\fillstarimage.png

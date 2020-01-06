@@ -13,7 +13,7 @@ namespace XamarinFormApp
 
             //MainPage = new NavigationPage(new SplashPage());
             //MainPage = new NavigationPage(new LoginPage());
-            MainPage = new NavigationPage(new PopupPage());
+            MainPage = new NavigationPage(new RattingBarPage());
         }
 
         protected override void OnStart()

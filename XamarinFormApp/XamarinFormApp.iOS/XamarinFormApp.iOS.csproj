@@ -189,4 +189,10 @@
   <ItemGroup>
     <BundleResource Include="Resources\ic_rarrow_black.png" />
   </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\fillStarImage.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\emptyStarImage.png" />
+  </ItemGroup>
 </Project>

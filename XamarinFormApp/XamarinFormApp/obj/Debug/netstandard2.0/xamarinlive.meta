@@ -7,6 +7,11 @@
       <Properties />
     </XamlFileMeta>
     <XamlFileMeta>
+      <FilePath>E:\XF_WorkSpace\XamarinFormApp\XamarinFormApp\XamarinFormApp\Controls\RattingBar.xaml</FilePath>
+      <Hash>9D-26-C0-FD-5F-A8-9C-7C-C8-0B-C4-1D-DC-F7-BE-AE</Hash>
+      <Properties />
+    </XamlFileMeta>
+    <XamlFileMeta>
       <FilePath>E:\XF_WorkSpace\XamarinFormApp\XamarinFormApp\XamarinFormApp\Styles\Button.xaml</FilePath>
       <Hash>A0-A7-84-FE-9D-64-D4-75-1C-D5-AA-43-71-BF-38-21</Hash>
       <Properties />
@@ -113,6 +118,11 @@
     <XamlFileMeta>
       <FilePath>E:\XF_WorkSpace\XamarinFormApp\XamarinFormApp\XamarinFormApp\Views\PopupPage.xaml</FilePath>
       <Hash>14-C9-A9-69-D6-06-93-23-B0-ED-CD-78-C4-41-45-83</Hash>
+      <Properties />
+    </XamlFileMeta>
+    <XamlFileMeta>
+      <FilePath>E:\XF_WorkSpace\XamarinFormApp\XamarinFormApp\XamarinFormApp\Views\RattingBarPage.xaml</FilePath>
+      <Hash>56-0A-E7-94-C8-BD-5D-B5-43-13-2F-F2-8B-76-8A-2E</Hash>
       <Properties />
     </XamlFileMeta>
     <XamlFileMeta>
